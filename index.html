@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Test Web Site</title> 
+    </head> 
+    
+    <body> 
+        <h1>Welcome to My Homepage!</h1> 
+        <a href="http://www.naver.com">Go NAVER</a><br>
+        
+        <a href="kakaotalk://main">카톡</a> <!-- 이렇게 하면 설치되고 스킴이 열려 있다면 액티비티가 실행된다. -->
+        <a href="intent://instagram.com/#Intent;package=com.instagram.android;scheme=https;end">인스타</a> <!--인텐트 스킴이라고 함. 이렇게 하면 앱이 미설치시 플레이스토어로 간다고 함. -->
+        <a href="intent://write?title=blogTitle&content=blogContent#Intent;scheme=naverblog;action=android.intent.action.VIEW;
+category=android.intent.category.BROWSABLE;package=com.nhn.android.blog;end">네이버 블로그앱 인텐트 스킴</a>
+        <a href="http://naverapp.naver.com/inappbrowser/?url=http%3A%2F%2Fm.naver.com&target=new&version=6">네이버 중계 페이지</a>
+    </body> 
+</html>
