@@ -13,7 +13,7 @@ app.get('/api/bad', (req, res) => {
     console.log('bad api 요청을 받음. 401를 리턴한다.')
     return res.status(401).json({err: 'Not Authorized'})
 })
-
+wfwefwefwef
 app.get('/api/timeout', (req, res) => {
     console.log('timeout api 요청을 받음. 응답을 1분 뒤에 한다.')
     sleep.sleep(60)
