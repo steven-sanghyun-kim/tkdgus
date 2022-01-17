@@ -9,7 +9,7 @@ app.get('/programinfo', (req, res) => {
     return res.json({id:'1234', title:'어서와'})
 })
 //wefwefwefwefwe
-//app.use('/programinfo', function(req, res, next) {
+//app.use('/programinfo', function(req, res, next) {wfwefwe
 //    console.log('요청을 처리함.')
 //    
 //    var x = req.query.x;
