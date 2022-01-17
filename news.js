@@ -8,8 +8,8 @@ app.get('/programinfo', (req, res) => {
     
     return res.json({id:'1234', title:'어서와'})
 })
-//
-//app.use('/programinfo', function(req, res, next) {
+//wefwefwefwefwe
+//app.use('/programinfo', function(req, res, next) {wfwefwe
 //    console.log('요청을 처리함.')
 //    
 //    var x = req.query.x;
@@ -22,9 +22,9 @@ app.get('/programinfo', (req, res) => {
 //    console.log(ua);
     
 //    let buff = new Buffer(customHeader, 'base64');
-//    let text = buff.toString('UTF-8');
+//    let text = buff.toString('UTF-8');fwefwef
     
-//    console.log(text);
+//    console.log(text); wfewfwfwe
     
 //    res.send(
 //        { id: '코로나!', title: 'http://nyt.~~~'}
