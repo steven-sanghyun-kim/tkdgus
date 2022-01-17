@@ -11,7 +11,7 @@ app.get('/programinfo', (req, res) => {
 //wefwefwefwefwe
 //app.use('/programinfo', function(req, res, next) {wfwefwe
 //    console.log('요청을 처리함.')
-//    
+//    wefwefwef
 //    var x = req.query.x;
 //    var about = req.query.about;
  //   var customHeader = req.get('steven-header');
