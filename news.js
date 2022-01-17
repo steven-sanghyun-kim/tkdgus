@@ -24,7 +24,7 @@ app.get('/programinfo', (req, res) => {
 //    let buff = new Buffer(customHeader, 'base64');
 //    let text = buff.toString('UTF-8');fwefwef
     
-//    console.log(text); wfewfwfwe
+//    console.log(text); wfewfwfwewfwefwefw
     
 //    res.send(
 //        { id: '코로나!', title: 'http://nyt.~~~'}
